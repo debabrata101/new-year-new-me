@@ -1,0 +1,172 @@
+* {
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+/* banner-section */
+.banner {
+    background-image: url(../images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.banner title {
+    text-align: center;
+    justify-content: right;
+    line-height: 76px;
+    font-family: 'Work Sans';
+}
+
+.banner-dp {
+    text-align: right;
+    margin-right: 60px;
+    padding: 150px 90px;
+    gap: 10px;
+
+}
+
+.banner-des {
+    color: gray;
+    padding-left: 500px;
+
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    height: 45px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+/* My-failures */
+.my-failure {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.fail-description {
+    align-items: center;
+    margin-right: 40px;
+    padding: 200px 200px;
+    width: 800px;
+    height: 600px;
+
+}
+
+.fail-pic {
+    width: 800px;
+    height: 600px;
+    margin-left: 70px;
+
+
+
+}
+
+.fail-des {
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.fail-point {
+
+    list-style: none;
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.fail-point li:before {
+    content: '✓';
+    color: rgb(59, 240, 59);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* my-plan design */
+.my-plan {
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: -300px;
+
+}
+
+.plan-list {
+    display: flex;
+    padding: 18px 250px;
+    gap: 100px;
+
+}
+
+.plan-p {
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* gradiant design */
+.gradiant {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    margin: 2px 100px;
+    display: block;
+
+
+}
+
+.grd-title {
+    padding: 6em;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-primary2 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(243, 242, 245);
+    color: rgb(106, 77, 187);
+    border-radius: 3px;
+    border: none;
+}
+
+/* footer design */
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    background-size: cover;
+    margin-top: 80px;
+    border-radius: 4px;
+}
+
+.footer-part1 {
+    padding: 90px 90px;
+    text-align: left;
+    justify-content: center;
+}
+
+.footer-part2 {
+    padding: 20px 40px;
+    padding: 90px 90px;
+    text-align: left;
+    justify-content: center;
+    gap:10px;
+}
+
+input {
+    width: 325px;
+    height: 64px;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
